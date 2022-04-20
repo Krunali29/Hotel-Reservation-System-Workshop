@@ -19,4 +19,10 @@ public class HotelReservationTest {
         HotelReservation hotelReservation = new HotelReservation();
         hotelReservation.getCheapestHotel();
     }
+
+    @Test
+    public void toFindTheCheapestHotelForGivenDate() {
+        HotelReservation cheapHotel = new HotelReservation();
+        cheapHotel.getCheapestHotelForGivenDate();
+    }
 }
