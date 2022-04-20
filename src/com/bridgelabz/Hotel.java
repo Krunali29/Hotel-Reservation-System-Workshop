@@ -66,4 +66,4 @@ public class Hotel {
                 ",WeekendRateForRewarder+" + weekendRateForRewarder +
                 '}';
     }
-   }
+}
